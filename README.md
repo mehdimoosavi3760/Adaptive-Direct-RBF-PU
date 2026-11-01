@@ -115,6 +115,32 @@ Detailed execution instructions and parameter settings will be provided with the
 
 **Publication Status:** Manuscript submitted for peer review.
 
+## Methodological Foundations and Acknowledgments
+
+The numerical implementations presented in this repository have been independently developed by the authors, drawing upon the mathematical formulations, algorithms, and computational strategies introduced in previous studies on radial basis function partition of unity methods.
+
+In particular, the following publications provided important methodological foundations for the present work:
+
+1. **Direct RBF-PU methodology:**
+
+   D. Mirzaei, *The Direct Radial Basis Function Partition of Unity (D-RBF-PU) Method for Solving PDEs*, SIAM Journal on Scientific Computing, 43(1), A54–A83, 2021.
+
+   DOI: https://doi.org/10.1137/19M128911X
+
+2. **Adaptive PU and variably scaled kernel methodologies:**
+
+   S. De Marchi, A. Martínez, E. Perracchione, and M. Rossini, *RBF-Based Partition of Unity Methods for Elliptic PDEs: Adaptivity and Stability Issues Via Variably Scaled Kernels*, Journal of Scientific Computing, 79(1), 321–344, 2019.
+
+   DOI: https://doi.org/10.1007/s10915-018-0851-2
+
+The algorithms and mathematical approaches presented in these studies were carefully examined and used as methodological references in developing the present MATLAB implementations. The codes in this repository were independently developed by the authors rather than directly copied from the original implementations.
+
+The main computational development of the present research is the integration of adaptive residual refinement with a condition-controlled Hybrid Variably Scaled Kernel (HVSK) strategy within the Direct RBF-PU framework.
+
+The original contributions of the aforementioned researchers are gratefully acknowledged.
+
+Users of this repository are encouraged to cite the present research as well as the relevant foundational publications when making use of the corresponding methodologies.
+
 ## Citation
 
 If you use this repository in your research, please cite the corresponding publication:
